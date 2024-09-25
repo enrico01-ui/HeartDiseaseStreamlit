@@ -4,7 +4,7 @@ import pickle
 import os
 
 
-model_path = 'C:\Users\Acer\Documents\Tugas_B_11890'
+model_path = 'C:/Users/Acer/Documents/Tugas_B_11890'
 model = os.path.join(model_path, 'GBT_heartDisease_model.pkl')
 
 with open(model, 'rb') as f:
